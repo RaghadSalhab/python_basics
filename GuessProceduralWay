@@ -13,4 +13,10 @@ def guess_procedural_way():
             print('its larger than that ! try again: ')
     return
 
-guess_procedural_way()
+while True:
+    choice=input('do you what to play (yes, no): ')
+    if choice.lower()=='yes':
+        guess_procedural_way()
+    else:
+        print('finish the program')
+        break
