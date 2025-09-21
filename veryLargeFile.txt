@@ -1,0 +1,169 @@
+[2025-09-08 15:08:25.013] [FileOnlySink] [info] MiniSocial program started!
+[2025-09-08 15:08:25.014] [FileOnlySink] [info] [USER SERVICE] Initializing UserService...
+[2025-09-08 15:08:25.035] [FileOnlySink] [info] [USER SERVICE] Users fetched: 18
+[2025-09-08 15:08:25.035] [FileOnlySink] [info] [USER SERVICE] Users fetched successfully during init
+[2025-09-08 15:08:25.035] [FileOnlySink] [info] CommentController initialized.
+[2025-09-08 15:08:37.689] [FileOnlySink] [error] [USER SERVICE] SQL Error in register_user: Duplicate entry 'q' for key 'users.username'
+[2025-09-08 15:08:37.689] [FileOnlySink] [warning] [USER CONTROLLER] Failed to register user: username=q, email=q
+[2025-09-08 15:09:29.647] [FileOnlySink] [error] [USER SERVICE] SQL Error in register_user: Duplicate entry 'omar@gmail.com' for key 'users.email'
+[2025-09-08 15:09:29.647] [FileOnlySink] [warning] [USER CONTROLLER] Failed to register user: username=omar@gmail.com, email=omar@gmail.com
+[2025-09-08 15:10:05.209] [FileOnlySink] [info] [USER SERVICE] User registered successfully: username=raghood, email=raghad@gmail.com
+[2025-09-08 15:10:05.209] [FileOnlySink] [info] [USER CONTROLLER] User registered: username=raghood, email=raghad@gmail.com
+[2025-09-08 15:11:41.126] [FileOnlySink] [warning] [USER SERVICE] Login failed for email=raghad@gmail.com
+[2025-09-08 15:11:41.126] [FileOnlySink] [warning] [USER CONTROLLER] Login failed for email=raghad@gmail.com
+[2025-09-08 15:12:06.536] [FileOnlySink] [info] [USER SERVICE] Login successful for email=raghad@gmail.com
+[2025-09-08 15:12:06.537] [FileOnlySink] [info] [USER CONTROLLER] Login successful for email=raghad@gmail.com, is_admin=false
+[2025-09-08 15:12:06.537] [FileOnlySink] [debug] Current user set to 36
+[2025-09-08 15:12:06.537] [FileOnlySink] [info] Logged in as user 36
+[2025-09-08 15:12:21.861] [FileOnlySink] [info] [USER CONTROLLER] Viewing profile for user_id=36
+[2025-09-08 15:12:21.863] [FileOnlySink] [info] [USER SERVICE] Profile viewed for user_id=36
+[2025-09-08 15:13:04.202] [FileOnlySink] [info] [POST SERVICE] Posts fetched for user 36: 0
+[2025-09-08 15:13:19.582] [FileOnlySink] [info] [POST SERVICE] Posts fetched for user 36: 0
+[2025-09-08 15:13:48.288] [FileOnlySink] [info] [POST SERVICE] Post created by User 36 with content: this is my first post iam raghaf
+[2025-09-08 15:13:57.220] [FileOnlySink] [info] [POST SERVICE] Posts fetched for user 36: 1
+[2025-09-08 15:13:57.221] [FileOnlySink] [info] [POST CONTROLLER] Listed Post 29 by User 36
+[2025-09-08 15:14:35.763] [FileOnlySink] [info] [POST SERVICE] Posts fetched for user 36: 1
+[2025-09-08 15:14:35.764] [FileOnlySink] [info] [POST CONTROLLER] Listed Post 29 by User 36
+[2025-09-08 15:15:10.909] [FileOnlySink] [info] [POST SERVICE] Retrieved details for Post 29 by User 36
+[2025-09-08 15:15:18.077] [FileOnlySink] [info] [POST SERVICE] User 36 updated Post 29 with new content: raghda raghads
+[2025-09-08 15:15:18.077] [FileOnlySink] [info] [POST CONTROLLER] User 36 updated Post 29 with new content: raghda raghads
+[2025-09-08 15:15:36.216] [FileOnlySink] [info] [POST SERVICE] Retrieved details for Post 2 by User 10
+[2025-09-08 15:15:36.217] [FileOnlySink] [warning] [POST CONTROLLER] User 36 attempted to edit Post 2 created by another user
+[2025-09-08 15:16:06.701] [FileOnlySink] [info] [POST SERVICE] Post created by User 36 with content: foe deletingggg
+[2025-09-08 15:16:22.086] [FileOnlySink] [info] [POST SERVICE] Retrieved details for Post 30 by User 36
+[2025-09-08 15:16:22.088] [FileOnlySink] [info] [POST SERVICE] Normal user_id=36 attempting to delete post_id=30
+[2025-09-08 15:16:22.090] [FileOnlySink] [info] [POST SERVICE] Post 30 deleted by user 36
+[2025-09-08 15:16:22.090] [FileOnlySink] [info] [POST CONTROLLER] User 36 deleted Post 30
+[2025-09-08 15:16:56.046] [FileOnlySink] [info] [POST SERVICE] Retrieved details for Post 29 by User 36
+[2025-09-08 15:16:56.047] [FileOnlySink] [info] [POST CONTROLLER] Viewed details for Post 29 by User 36
+[2025-09-08 15:17:21.308] [FileOnlySink] [info] [POST SERVICE] Retrieved details for Post 4 by User 11
+[2025-09-08 15:17:21.309] [FileOnlySink] [info] [POST CONTROLLER] Viewed details for Post 4 by User 11
+[2025-09-08 15:17:31.213] [FileOnlySink] [warning] [POST SERVICE] Post 121 not found in get_post_details
+[2025-09-08 15:17:31.213] [FileOnlySink] [warning] [POST CONTROLLER] Attempted to view non-existent Post 121
+[2025-09-08 15:18:33.542] [FileOnlySink] [info] Follow request sent: 36 -> 27
+[2025-09-08 15:18:33.542] [FileOnlySink] [info] Follow request sent from user 36 to user 27
+[2025-09-08 15:19:29.466] [FileOnlySink] [debug] Loaded 0 pending requests for user 36
+[2025-09-08 15:19:29.466] [FileOnlySink] [info] User 36 has no pending follow requests
+[2025-09-08 15:22:17.475] [FileOnlySink] [warning] Follow request already exists: 36 -> 27
+[2025-09-08 15:22:17.475] [FileOnlySink] [warning] Failed to send follow request from user 36 to user 27
+[2025-09-08 15:22:25.075] [FileOnlySink] [info] Follow request sent: 36 -> 28
+[2025-09-08 15:22:25.075] [FileOnlySink] [info] Follow request sent from user 36 to user 28
+[2025-09-08 15:23:46.025] [FileOnlySink] [info] [LIKE SERVICE] User 36 liked post 29
+[2025-09-08 15:23:46.025] [FileOnlySink] [info] [LIKE CONTROLLER] User 36 liked post 29
+[2025-09-08 15:23:52.337] [FileOnlySink] [error] [LIKE SERVICE] SQL Error in add (post 29, user 36): Duplicate entry '29-36' for key 'likes.post_id'
+[2025-09-08 15:23:52.337] [FileOnlySink] [warning] [LIKE CONTROLLER] User 36 failed to like post 29 (maybe already liked)
+[2025-09-08 15:24:52.452] [FileOnlySink] [info] [LIKE SERVICE] User 36 removed like from post 29
+[2025-09-08 15:24:52.452] [FileOnlySink] [info] [LIKE CONTROLLER] User 36 removed like from post 29
+[2025-09-08 15:25:22.360] [FileOnlySink] [info] [LIKE SERVICE] Retrieved 0 posts liked by user 36
+[2025-09-08 15:25:22.360] [FileOnlySink] [info] [LIKE CONTROLLER] Viewing posts liked by user 36 (0 posts)
+[2025-09-08 15:25:38.859] [FileOnlySink] [info] [LIKE SERVICE] User 36 liked post 29
+[2025-09-08 15:25:38.859] [FileOnlySink] [info] [LIKE CONTROLLER] User 36 liked post 29
+[2025-09-08 15:25:43.299] [FileOnlySink] [info] [LIKE SERVICE] Retrieved 1 likes for post 29
+[2025-09-08 15:25:43.299] [FileOnlySink] [info] [LIKE CONTROLLER] Viewing likes on post 29 (1 likes)
+[2025-09-08 15:26:06.645] [FileOnlySink] [info] [LIKE SERVICE] Retrieved 1 posts liked by user 36
+[2025-09-08 15:26:06.645] [FileOnlySink] [info] [LIKE CONTROLLER] Viewing posts liked by user 36 (1 posts)
+[2025-09-08 15:26:43.377] [FileOnlySink] [info] [ADD COMMENT] Successfully added comment_id=14 for post_id=29 by user_id=36
+[2025-09-08 15:26:43.377] [FileOnlySink] [info] User 36 added a comment to post 29
+[2025-09-08 15:27:21.054] [FileOnlySink] [warning] [UPDATE COMMENT] No rows updated for comment_id=0 by user_id=36
+[2025-09-08 15:27:21.054] [FileOnlySink] [warning] User 36 failed to update comment 0
+[2025-09-08 15:27:36.028] [FileOnlySink] [info] [FETCH COMMENTS] Fetched 1 comments for post_id=29
+[2025-09-08 15:27:36.029] [FileOnlySink] [debug] Comment ID 14 by User 36: asasasasas
+[2025-09-08 15:28:04.847] [FileOnlySink] [info] [UPDATE COMMENT] Updated comment_id=14 by user_id=36
+[2025-09-08 15:28:04.847] [FileOnlySink] [info] User 36 updated comment 14
+[2025-09-08 15:28:30.681] [FileOnlySink] [info] [FETCH COMMENTS] Fetched 1 comments for post_id=29
+[2025-09-08 15:28:30.682] [FileOnlySink] [debug] Comment ID 14 by User 36: neeeeeeeeeeeeeeew
+[2025-09-08 15:28:50.633] [FileOnlySink] [info] [DELETE COMMENT] Normal user_id=36 attempting to delete comment_id=14
+[2025-09-08 15:28:50.636] [FileOnlySink] [info] [DELETE COMMENT] Deleted comment_id=14 by user_id=36
+[2025-09-08 15:28:50.637] [FileOnlySink] [info] User 36 removed comment 14
+[2025-09-08 15:29:04.331] [FileOnlySink] [info] [DELETE COMMENT] Normal user_id=36 attempting to delete comment_id=2
+[2025-09-08 15:29:04.331] [FileOnlySink] [warning] [DELETE COMMENT] No rows deleted for comment_id=2 by user_id=36
+[2025-09-08 15:29:04.331] [FileOnlySink] [warning] User 36 failed to remove comment 2
+[2025-09-08 15:29:25.896] [FileOnlySink] [debug] Current user set to 0
+[2025-09-08 15:29:25.896] [FileOnlySink] [info] Logged out, no user is currently logged in
+[2025-09-08 15:29:37.462] [FileOnlySink] [info] [USER SERVICE] Login successful for email=as
+[2025-09-08 15:29:37.463] [FileOnlySink] [info] [USER CONTROLLER] Login successful for email=as, is_admin=false
+[2025-09-08 15:29:37.463] [FileOnlySink] [debug] Current user set to 27
+[2025-09-08 15:29:37.463] [FileOnlySink] [info] Logged in as user 27
+[2025-09-08 15:30:01.020] [FileOnlySink] [debug] Loaded 1 pending requests for user 27
+[2025-09-08 15:30:01.020] [FileOnlySink] [info] User 27 has 1 pending follow requests
+[2025-09-08 15:30:26.275] [FileOnlySink] [info] Request 16 accepted: 36 -> 27
+[2025-09-08 15:30:26.275] [FileOnlySink] [info] Follow request 16 accepted
+[2025-09-08 15:30:49.120] [FileOnlySink] [info] Followers loaded for user_id=27
+[2025-09-08 15:30:49.120] [FileOnlySink] [info] User 27 has 1 followers
+[2025-09-08 15:31:44.357] [FileOnlySink] [info] Following loaded for user_id=27
+[2025-09-08 15:31:44.357] [FileOnlySink] [info] User 27 is not following anyone
+[2025-09-08 15:32:04.804] [FileOnlySink] [warning] No friendship exists between 27 and 22
+[2025-09-08 15:32:04.804] [FileOnlySink] [warning] Failed to remove friendship between user 27 and user 22
+[2025-09-08 15:32:16.019] [FileOnlySink] [info] [POST SERVICE] Posts fetched for user 27: 1
+[2025-09-08 15:32:16.020] [FileOnlySink] [info] [POST CONTROLLER] Listed Post 25 by User 27
+[2025-09-08 15:32:35.425] [FileOnlySink] [debug] Current user set to 0
+[2025-09-08 15:32:35.425] [FileOnlySink] [info] Logged out, no user is currently logged in
+[2025-09-08 15:32:59.217] [FileOnlySink] [info] [USER SERVICE] Login successful for email=raghad@gmail.com
+[2025-09-08 15:32:59.217] [FileOnlySink] [info] [USER CONTROLLER] Login successful for email=raghad@gmail.com, is_admin=false
+[2025-09-08 15:32:59.217] [FileOnlySink] [debug] Current user set to 36
+[2025-09-08 15:32:59.217] [FileOnlySink] [info] Logged in as user 36
+[2025-09-08 15:33:15.501] [FileOnlySink] [info] [POST SERVICE] Posts fetched for user 36: 2
+[2025-09-08 15:33:15.502] [FileOnlySink] [info] [POST CONTROLLER] Listed Post 29 by User 36
+[2025-09-08 15:33:15.502] [FileOnlySink] [info] [POST CONTROLLER] Listed Post 25 by User 27
+[2025-09-08 15:35:55.823] [FileOnlySink] [debug] Current user set to 0
+[2025-09-08 15:35:55.823] [FileOnlySink] [info] Logged out, no user is currently logged in
+[2025-09-08 15:35:58.292] [FileOnlySink] [info] [USER SERVICE] Login successful for email=as
+[2025-09-08 15:35:58.293] [FileOnlySink] [info] [USER CONTROLLER] Login successful for email=as, is_admin=false
+[2025-09-08 15:35:58.293] [FileOnlySink] [debug] Current user set to 27
+[2025-09-08 15:35:58.293] [FileOnlySink] [info] Logged in as user 27
+[2025-09-08 15:36:02.073] [FileOnlySink] [info] Followers loaded for user_id=27
+[2025-09-08 15:36:02.073] [FileOnlySink] [info] User 27 has 1 followers
+[2025-09-08 15:36:07.867] [FileOnlySink] [info] Following loaded for user_id=27
+[2025-09-08 15:36:07.867] [FileOnlySink] [info] User 27 is not following anyone
+[2025-09-08 15:36:14.781] [FileOnlySink] [info] Follower 36 removed from user 27
+[2025-09-08 15:36:14.781] [FileOnlySink] [info] Follower 36 removed from user 27
+[2025-09-08 15:37:03.087] [FileOnlySink] [warning] Follower 36 does not exist for user 27
+[2025-09-08 15:37:03.087] [FileOnlySink] [warning] Failed to remove follower 36 from user 27
+[2025-09-08 15:37:29.985] [FileOnlySink] [debug] Current user set to 0
+[2025-09-08 15:37:29.985] [FileOnlySink] [info] Logged out, no user is currently logged in
+[2025-09-08 15:38:08.152] [FileOnlySink] [info] [USER SERVICE] Login successful for email=q
+[2025-09-08 15:38:08.153] [FileOnlySink] [info] [USER CONTROLLER] Login successful for email=q, is_admin=false
+[2025-09-08 15:38:08.153] [FileOnlySink] [debug] Current user set to 28
+[2025-09-08 15:38:08.153] [FileOnlySink] [info] Logged in as user 28
+[2025-09-08 15:38:09.680] [FileOnlySink] [info] [USER CONTROLLER] Viewing profile for user_id=28
+[2025-09-08 15:38:09.681] [FileOnlySink] [info] [USER SERVICE] Profile viewed for user_id=28
+[2025-09-08 15:38:19.127] [FileOnlySink] [info] Followers loaded for user_id=28
+[2025-09-08 15:38:19.127] [FileOnlySink] [info] User 28 has no followers
+[2025-09-08 15:38:19.824] [FileOnlySink] [info] Following loaded for user_id=28
+[2025-09-08 15:38:19.824] [FileOnlySink] [info] User 28 is following 1 users
+[2025-09-08 15:38:28.841] [FileOnlySink] [debug] Loaded 1 pending requests for user 28
+[2025-09-08 15:38:28.841] [FileOnlySink] [info] User 28 has 1 pending follow requests
+[2025-09-08 15:38:34.824] [FileOnlySink] [info] Request 17 accepted: 36 -> 28
+[2025-09-08 15:38:34.824] [FileOnlySink] [info] Follow request 17 accepted
+[2025-09-08 15:39:59.632] [FileOnlySink] [info] Follow request sent: 28 -> 36
+[2025-09-08 15:39:59.632] [FileOnlySink] [info] Follow request sent from user 28 to user 36
+[2025-09-08 15:41:15.316] [FileOnlySink] [debug] Loaded 0 pending requests for user 28
+[2025-09-08 15:41:15.316] [FileOnlySink] [info] User 28 has no pending follow requests
+[2025-09-08 15:41:18.660] [FileOnlySink] [debug] Current user set to 0
+[2025-09-08 15:41:18.660] [FileOnlySink] [info] Logged out, no user is currently logged in
+[2025-09-08 15:41:34.178] [FileOnlySink] [info] [USER SERVICE] Login successful for email=raghad@gmail.com
+[2025-09-08 15:41:34.179] [FileOnlySink] [info] [USER CONTROLLER] Login successful for email=raghad@gmail.com, is_admin=false
+[2025-09-08 15:41:34.179] [FileOnlySink] [debug] Current user set to 36
+[2025-09-08 15:41:34.179] [FileOnlySink] [info] Logged in as user 36
+[2025-09-08 15:41:40.365] [FileOnlySink] [debug] Loaded 1 pending requests for user 36
+[2025-09-08 15:41:40.366] [FileOnlySink] [info] User 36 has 1 pending follow requests
+[2025-09-08 15:41:46.746] [FileOnlySink] [info] Request 18 accepted: 28 -> 36
+[2025-09-08 15:41:46.746] [FileOnlySink] [info] Follow request 18 accepted
+[2025-09-08 15:43:44.535] [FileOnlySink] [info] Followers loaded for user_id=36
+[2025-09-08 15:43:44.535] [FileOnlySink] [info] User 36 has 1 followers
+[2025-09-08 15:43:45.068] [FileOnlySink] [info] Following loaded for user_id=36
+[2025-09-08 15:43:45.068] [FileOnlySink] [info] User 36 is following 1 users
+[2025-09-08 15:44:12.709] [FileOnlySink] [info] Friendship removed between 36 and 28
+[2025-09-08 15:44:12.710] [FileOnlySink] [info] Friendship removed between user 36 and user 28
+[2025-09-08 15:44:13.932] [FileOnlySink] [info] User 36 has no followers
+[2025-09-08 15:44:14.353] [FileOnlySink] [info] User 36 is not following anyone
+[2025-09-08 15:45:36.560] [FileOnlySink] [debug] Current user set to 0
+[2025-09-08 15:45:36.560] [FileOnlySink] [info] Logged out, no user is currently logged in
+[2025-09-08 15:45:45.704] [FileOnlySink] [info] [USER SERVICE] Login successful for email=dd
+[2025-09-08 15:45:45.704] [FileOnlySink] [info] [USER CONTROLLER] Login successful for email=dd, is_admin=true
+[2025-09-08 15:45:45.704] [FileOnlySink] [debug] Current user set to 29
+[2025-09-08 15:45:45.704] [FileOnlySink] [info] Logged in as user 29
+[2025-09-08 15:46:24.106] [FileOnlySink] [info] [USER SERVICE] All users viewed, total count=19
+[2025-09-08 15:47:29.451] [FileOnlySink] [info] [USER SERVICE] User removed: id=24
+[2025-09-08 15:47:51.164] [FileOnlySink] [info] [POST SERVICE] Posts fetched for user 29: 0
+[2025-09-08 15:48:11.584] [FileOnlySink] [warning] [USER SERVICE] No user found with id=1 to remove

@@ -1,0 +1,16 @@
+import random
+def guess_procedural_way():
+    rand_num=random.randint(1,100)
+    print(f"the random number is {rand_num}")
+    while True:
+        num=int(input('Enter the Number: '))
+        if(rand_num==num):
+            print('you guest it good: ')
+            break
+        elif (num>rand_num):
+            print('its less than that ! try again: ')
+        else:
+            print('its larger than that ! try again: ')
+    return
+
+guess_procedural_way()
