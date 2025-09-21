@@ -34,6 +34,7 @@ class GuessGame:
     def play(self):
         self.target=self.generate_random(self.min,self.max)
         self.trail_count=0
+        self.attempts=[]
         print(f'the guessing num is : { self.target}')
         
         print('start a new game')
@@ -56,6 +57,8 @@ while True:
     choice=input('do you what to play (yes, no): ')
     if choice.lower()=='yes':
         p.play()
+        for i in p:
+            print('attempts: ' ,i)
     else:
         print('finish the program')
         break
