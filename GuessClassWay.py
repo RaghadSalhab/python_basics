@@ -2,14 +2,25 @@ import random
 
 class GuessGame:
 
+    instance =None
+
+    def __new__(cls, *args, **kwds):
+        if cls.instance is None:
+            cls.instance=super().__new__(cls)
+        return cls.instance
+
     def __init__(self,min,max):
         self.target=self.generate_random(min,max)
         self.trail_count=0
+        self.attempts=[]
 
     def generate_random(self,min,max):
         return random.randint(min,max)
     
     def guess_num(self,num):
+        self.attempts.append(num)
+        self.trail_count+=1
+        
         if(self.target==num):
             print(f'YOU GUESS IT GOOD! its {self.target} and the number of trail is {self.trail_count} ')
             return True
@@ -18,7 +29,6 @@ class GuessGame:
         else:
             print('its less than that ! try again: ')
 
-        self.trail_count+=1
         return False
 
     def play(self):
@@ -32,8 +42,13 @@ class GuessGame:
 
     def __repr__(self):
         return(f'target({self.target}) , trail_count({self.trail_count})')
+    
+    def __iter__(self):
+        return iter(self.attempts)
 
 p=GuessGame(1,100)
 print(p)
 p.play()
-        
+
+for attempt in p:
+    print("Tried:", attempt)
